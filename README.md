@@ -70,6 +70,7 @@ Multipart request body сейчас собирается минимальным 
 ## Последний локальный прогон
 
 После локального запуска HTML-отчет Gradle доступен в `build/reports/tests/test/index.html`. XML-результаты JUnit находятся в `build/test-results/test`.
+TBD Разметка и репортинг в Allure
 
 ## Диагностика
 
