@@ -39,6 +39,7 @@ class UserApiTest {
     inner class GetUsers {
         @Test
         fun `returns json array with user schema`() {
+            //todo переписать с подготовкой юзеров и очисткой после, пока что нет /delete
             api.createUserFixture()
             val response = api.getUsers()
             assertThat(response.statusCode).isEqualTo(200)
